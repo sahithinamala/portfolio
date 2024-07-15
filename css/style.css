@@ -633,7 +633,7 @@ a.active {
 }
 
 .image-container img {
-    width: 100px; /* Set the width of the images to make them smaller */
+    width: 50px; /* Set the width of the images to make them smaller */
     height: auto;
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
