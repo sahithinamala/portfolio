@@ -626,7 +626,43 @@ a.active {
     line-height: 50px;
 }
 
+.image-container {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    position: relative;
+}
 
+.image-container img {
+    width: 100px; /* Set the width of the images to make them smaller */
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+.description-container {
+    flex: 1;
+}
+
+.portfolio_item_hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.image-container:hover .portfolio_item_hover {
+    display: flex;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
 
 /* contact
 ==================================================*/
