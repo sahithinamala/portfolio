@@ -451,24 +451,7 @@ a.active {
 
 /* projects section
 ==================================================*/
-.image-container {
-            width: 200px; /* Adjust the width as needed */
-            float: left; /* Align the images to the left */
-            margin: 10px; /* Add some space between the images */
-        }
 
-        /* Ensure the images are responsive within the container */
-        .image-container img {
-            width: 100%;
-            height: auto;
-        }
-
-        /* Clear floats after the rows */
-        .portfolio:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
 #projects {
     padding: 100px 0;
 }
